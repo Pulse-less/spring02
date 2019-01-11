@@ -32,7 +32,7 @@
 		<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"></constructor-arg>
 	</bean>
 	
-	<!-- mybatis 스프링 연동 -->
+	<!-- mybatis mapper interface bean을 자동으로 검색해줌 -->
 	<mybatis-spring:scan base-package="com.example.spring02.model.memo"/>
 
 </beans>
